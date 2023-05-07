@@ -3,15 +3,18 @@ html {
   scroll-behavior: smooth;
 }
 
-body , a {
+body {
+  color: #161616;
+}
+a {
   color: #161616;
 }
 .visually-hidden {
   display: none;
 }
 .card-category {
- color: #d73954;
+  color: #d73954;
 }
 .section-tagline {
- color: #d73954;
+  color: #d73954;
 }
