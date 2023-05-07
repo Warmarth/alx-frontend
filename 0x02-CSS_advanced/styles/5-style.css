@@ -23,8 +23,6 @@ html {
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
-}
-body {
   font-size: var(--font-size-medium);
 }
 
