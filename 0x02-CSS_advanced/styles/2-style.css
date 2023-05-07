@@ -9,7 +9,7 @@ a {
 body .visually-hidden {
   display: none;
 }
-body .card-category {
+p .card-category {
   color: #d73954;
 }
 body .section-tagline {
