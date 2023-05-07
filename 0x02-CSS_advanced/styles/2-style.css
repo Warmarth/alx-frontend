@@ -6,12 +6,12 @@ body {
 a {
   color: #161616;
 }
-body .visually-hidden {
+.visually-hidden {
   display: none;
 }
-p .card-category {
+.card-category {
   color: #d73954;
 }
-body .section-tagline {
+.section-tagline {
   color: #d73954;
 }
