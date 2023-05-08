@@ -60,19 +60,19 @@ a {
   color: var(--text-color);
 }
 
-a[herf]{
+a:link{
  font-style: italic;
 }
 /* visited links */
-a[href]:visited {
+a:visited {
   /* font styling */
   font-style: italic;
 }
-a[herf]:hover {
+a:hover {
   text-decoration: underline;
 }
 /* active link */
-a[href]:active {
+a:active {
   /* font styling */
   background-color: var(--color-light-grey);
 }
