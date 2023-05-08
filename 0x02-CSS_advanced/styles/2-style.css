@@ -7,15 +7,15 @@ html {
 body {
   color: #161616;
 }
- a {
+a {
   color: #161616;
 }
- .visually-hidden {
+.visually-hidden {
   display: none;
 }
- .card-category {
+.card-category {
   color: #d73954;
 }
- .section-tagline {
+.section-tagline {
   color: #d73954;
 }
