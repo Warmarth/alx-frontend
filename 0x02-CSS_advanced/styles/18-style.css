@@ -42,7 +42,7 @@
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hove: var(--color-primary);
 }
 
@@ -120,7 +120,7 @@ a:active {
 
 .nav-link .nav {
   display: block;
-  padding: 1.5rem 3rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
