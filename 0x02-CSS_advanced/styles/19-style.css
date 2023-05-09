@@ -182,14 +182,14 @@ a:active {
 }
 
 /* Grid styling and custom variables */
-ul .row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .col-1-3 {
-  width: 33.3%;
+  width: 33.33%;
   float: left;
   padding: 0.5rem;
 }
@@ -198,13 +198,14 @@ ul .row {
   float: left;
   padding: 0.5rem;
 }
-.footer-copyright{
- margin: 0;
- font-size: var(--font-size-small);
- color: var(--text-color);
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
 }
-ul .footer{
- text-align: right;
+ast
+.footer ul {
+  text-align: right;
 }
 
 /* footer */
