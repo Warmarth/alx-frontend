@@ -239,6 +239,6 @@ ul.row {
   display: block;
 }
 /* target children svg */
-.social-link svg {
+.social-link > svg {
   fill: var(--text-color);
 }
