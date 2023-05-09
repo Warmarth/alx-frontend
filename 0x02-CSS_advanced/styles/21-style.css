@@ -216,6 +216,14 @@ ul.row {
   clear: both;
 }
 
+/* Simplify the col- selector */
+.col-1-2,
+.col-1-3 {
+  float: left;
+  padding: 0.5rem;
+}
+
+
 /* footer */
 .footer {
   padding: var(--footer-padding);
