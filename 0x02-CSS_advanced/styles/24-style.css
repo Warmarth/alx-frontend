@@ -186,7 +186,7 @@ a:active {
 
 /* Add background and hover state to services */
 .card-services .card-title {
-  margin: 0;
+  margin: none;
 }
 .card-services a {
   display: block;
