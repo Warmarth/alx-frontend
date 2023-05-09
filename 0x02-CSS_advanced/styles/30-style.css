@@ -282,12 +282,13 @@ a:active {
   overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
   vertical-align: bottom;
 }
+
 .card-work .card-inner {
   position: absolute;
   top: -0.1rem;
@@ -295,13 +296,11 @@ a:active {
   right: -0.1rem;
   z-index: 1;
 }
-.card-inner:hover {
+
+.card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.card-category {
-  color: var(--color-primary);
-}
 .card-work .card-title {
   text-align: center;
   margin: 0;
@@ -309,6 +308,7 @@ a:active {
   height: 100%;
   position: relative;
 }
+
 .card-work .card-title a {
   display: block;
   text-decoration: none;
@@ -327,6 +327,11 @@ a:active {
 .card-work:hover .card-title {
   opacity: 1;
 }
+
+.card-category {
+  color: var(--color-primary);
+}
+
 /* Add border radius to images */
 .card-testimonial {
   text-align: center;
