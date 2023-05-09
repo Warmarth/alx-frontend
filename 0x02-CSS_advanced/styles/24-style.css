@@ -184,6 +184,21 @@ a:active {
   margin-left: auto;
 }
 
+/* Add background and hover state to services */
+.card-services .card-title {
+  margin: 0 0 0 0;
+}
+a .card-services {
+  display: block;
+  padding: 1rem;
+  background-color: var(--color-light-grey);
+}
+a.card-services:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
+
 /* card-category */
 .card-category {
   color: var(--color-primary);
